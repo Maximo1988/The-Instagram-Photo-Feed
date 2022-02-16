@@ -1,3 +1,82 @@
-.header {
-    flex: center; 
+html
+{
+    box-sizing: border-box;
+} 
+
+
+body {
+    background: lightgray;
+    
+}
+
+.Photo-Feed {
+    background-color: white;
+    text-align: center;
+}
+.First {
+    margin:auto;
+    color: black;
+    width: 50%;
+    margin-bottom: 1em;
+    border-radius: 00.5em;
+    overflow: hidden;
+    background-color: white;
+}
+.First-title {
+
+}
+.image1 {
+    width: 100%;
+}
+.First-text {
+    justify-content: space-between;
+    display: flex;
+}
+.Second {
+    margin:auto;
+    color: black;
+    width: 50%;
+    margin-bottom: 1em;
+    border-radius: 00.5em;
+    overflow: hidden;
+    background-color: white;
+}
+.image2 {
+    width: 100%;
+}
+.Second-text {
+    justify-content: space-between;
+    display: flex;
+}
+.Third {
+    margin:auto;
+    color: black;
+    width: 50%;
+    margin-bottom: 1em;
+    border-radius: 00.5em;
+    overflow: hidden;
+    background-color: white;
+}
+.image3 {
+    width: 100%;
+}
+.Third-text {
+    justify-content: space-between;
+    display: flex;
+}
+.Fourth {
+    margin:auto;
+    color: black;
+    width: 50%;
+    margin-bottom: 1em;
+    border-radius: 00.5em;
+    overflow: hidden;
+    background-color: white;
+}
+.image4 {
+    width: 100%;
+}
+.Fourth-text {
+    justify-content: space-between;
+    display: flex;
 }
