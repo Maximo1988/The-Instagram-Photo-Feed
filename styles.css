@@ -1,82 +1,36 @@
-html
-{
-    box-sizing: border-box;
-} 
-
-
 body {
     background: lightgray;
-    
 }
 
 .Photo-Feed {
     background-color: white;
-    text-align: center;
 }
-.First {
-    margin:auto;
-    color: black;
-    width: 50%;
-    margin-bottom: 1em;
-    border-radius: 00.5em;
-    overflow: hidden;
+
+.header {
+    width: 100%;
     background-color: white;
+    margin-top: 0px;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
 }
-.First-title {
+
+.card {
+    margin: auto;
+    background-color: #ffffff;
+    color: rgb(24, 20, 20);
+    overflow: hidden;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+    width: 50%;
     
 }
-.image1 {
+
+.card-img {
     width: 100%;
 }
-.First-text {
-    justify-content: space-between;
+
+.card-title {
     display: flex;
-}
-.Second {
-    margin:auto;
-    color: black;
-    width: 50%;
-    margin-bottom: 1em;
-    border-radius: 00.5em;
-    overflow: hidden;
-    background-color: white;
-}
-.image2 {
-    width: 100%;
-}
-.Second-text {
     justify-content: space-between;
-    display: flex;
-}
-.Third {
-    margin:auto;
-    color: black;
-    width: 50%;
-    margin-bottom: 1em;
-    border-radius: 00.5em;
-    overflow: hidden;
-    background-color: white;
-}
-.image3 {
-    width: 100%;
-}
-.Third-text {
-    justify-content: space-between;
-    display: flex;
-}
-.Fourth {
-    margin:auto;
-    color: black;
-    width: 50%;
-    margin-bottom: 1em;
-    border-radius: 00.5em;
-    overflow: hidden;
-    background-color: white;
-}
-.image4 {
-    width: 100%;
-}
-.Fourth-text {
-    justify-content: space-between;
-    display: flex;
 }
